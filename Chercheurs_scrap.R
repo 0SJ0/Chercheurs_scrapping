@@ -3,8 +3,8 @@ library(tidyverse)
 library(DT)
 
 # Création dataframe
-Nom <- c("Raoult", "Raoult","Louisia","Louisia","Louisio","Rochut","Blasco","Rochut")
-Prenom <- c("Didier", "Bernard","Jean","Stephane","Karim","Julie","Sylvie","Sylvie")
+Nom <- c("Raoult", "Raoult","Louisia","Louisia","Louisio")
+Prenom <- c("Didier", "Bernard","Jean","Stephane","Karim")
 
 df <- data.frame(Nom, Prenom)
 vitesse<-1
